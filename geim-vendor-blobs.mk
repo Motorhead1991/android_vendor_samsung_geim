@@ -89,9 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_router.bin:system/ath6k/AR6003/hw2.1.1/athwlan_router.bin \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin:system/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/bdata.SD31.bin:system/ath6k/AR6003/hw2.1.1/bdata.SD31.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/bdata.SD31.bin.03:system/ath6k/AR6003/hw2.1.1/bdata.SD31.bin.03 \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/bdata.SD31.bin.05:system/ath6k/AR6003/hw2.1.1/bdata.SD31.bin.05 \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/bdata.SD31.bin.07:system/ath6k/AR6003/hw2.1.1/bdata.SD31.bin.07 \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin:system/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/device.bin:system/ath6k/AR6003/hw2.1.1/device.bin \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/otp.bin:system/ath6k/AR6003/hw2.1.1/otp.bin \
