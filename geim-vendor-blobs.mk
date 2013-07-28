@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 
 ## Atheros AR6003 firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/ar6000.ko:system/wifi/ar6000.ko \
+    vendor/samsung/geim/proprietary/ath6k/ar6000.ko:system/wifi/ar6000.ko \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin \
     vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin \
