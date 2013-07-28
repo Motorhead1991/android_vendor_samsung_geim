@@ -82,16 +82,16 @@ PRODUCT_COPY_FILES += \
 
 ## Atheros AR6003 firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/geim/proprietary/wifi/ar6000.ko:system/wifi/ar6000.ko \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan.bin:system/ath6k/AR6003/hw2.1.1/athwlan.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin:system/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_router.bin:system/ath6k/AR6003/hw2.1.1/athwlan_router.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin:system/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/bdata.SD31.bin:system/ath6k/AR6003/hw2.1.1/bdata.SD31.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin:system/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/device.bin:system/ath6k/AR6003/hw2.1.1/device.bin \
-    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/otp.bin:system/ath6k/AR6003/hw2.1.1/otp.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/ar6000.ko:system/wifi/ar6000.ko \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_router.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_router.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_tablet.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/bdata.SD31.bin:system/wifi/ath6k/AR6003/hw2.1.1/bdata.SD31.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin:system/wifi/ath6k/AR6003/hw2.1.1/data.patch.hw3_0.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/device.bin:system/wifi/ath6k/AR6003/hw2.1.1/device.bin \
+    vendor/samsung/geim/proprietary/ath6k/AR6003/hw2.1.1/otp.bin:system/wifi/ath6k/AR6003/hw2.1.1/otp.bin \
     vendor/samsung/geim/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/samsung/geim/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     vendor/samsung/geim/proprietary/bin/wlan_tool:system/bin/wlan_tool \
