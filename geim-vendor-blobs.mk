@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Open source parts
+PRODUCT_COPY_FILES += \
+    vendor/samsung/geim/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+
 ## RIL related stuff
 PRODUCT_COPY_FILES += \
     vendor/samsung/geim/proprietary/lib/libril.so:system/lib/libril.so \
