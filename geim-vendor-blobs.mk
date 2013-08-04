@@ -109,7 +109,9 @@ PRODUCT_COPY_FILES += \
 ## Audio
 PRODUCT_COPY_FILES += \
     vendor/samsung/geim/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
-    vendor/samsung/geim/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so 
+    vendor/samsung/geim/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/samsung/geim/proprietary/lib/libaudio.so:system/lib/libaudio.so \
+    vendor/samsung/geim/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so 
 
 ##GPS
 PRODUCT_COPY_FILES += \
