@@ -15,6 +15,7 @@
 # Open source parts
 PRODUCT_COPY_FILES += \
     vendor/samsung/geim/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/samsung/geim/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so 
 
 ## RIL related stuff
 PRODUCT_COPY_FILES += \
